@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hiroto08 — アプリ</title>
+<meta name="description" content="個人開発者 Hiroto08 のアプリ一覧とお問い合わせ先。">
+<style>
+  :root { --bg:#faf8f6; --surface:#fff; --text:#17161a; --muted:#6d6a73; --border:#e7e2dc; --accent:#e8543f; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111013; --surface:#1c1a1f; --text:#f5f3f0; --muted:#a6a2ac; --border:#2e2b33; --accent:#ff6a52; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:0 16px 64px; background:var(--bg); color:var(--text);
+         font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
+         line-height:1.8; font-size:16px; }
+  .wrap { max-width:640px; margin:0 auto; }
+  header { padding:48px 0 24px; border-bottom:1px solid var(--border); }
+  h1 { font-size:22px; margin:0; }
+  .lead { color:var(--muted); margin:6px 0 0; font-size:14px; }
+  h2 { font-size:15px; color:var(--muted); margin:36px 0 12px; letter-spacing:.04em; }
+  .app { display:flex; gap:16px; align-items:center; background:var(--surface);
+         border:1px solid var(--border); border-radius:16px; padding:16px; }
+  .mark { flex:none; width:56px; height:56px; border-radius:13px; background:var(--accent); color:#fff;
+          display:flex; align-items:center; justify-content:center; font-size:32px; font-weight:600; }
+  .app h3 { margin:0; font-size:17px; }
+  .app p { margin:2px 0 8px; color:var(--muted); font-size:14px; }
+  .links { display:flex; flex-wrap:wrap; gap:6px 16px; font-size:14px; }
+  a { color:var(--accent); }
+  .contact { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px; }
+  footer { margin-top:48px; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Hiroto08</h1>
+    <p class="lead">個人でスマートフォンアプリを開発しています。</p>
+  </header>
+
+  <h2>アプリ</h2>
+  <div class="app">
+    <div class="mark" aria-hidden="true">あ</div>
+    <div>
+      <h3>ランダム一音</h3>
+      <p>五十音の一文字とトランプの一枚をランダムに決めるアプリ。</p>
+      <div class="links">
+        <a href="https://hiroto08.github.io/random-kana-privacy/">プライバシーポリシー</a>
+      </div>
+    </div>
+  </div>
+
+  <h2>お問い合わせ</h2>
+  <div class="contact">
+    不具合のご報告やご要望は、こちらまでお送りください。<br>
+    <a href="mailto:ai.creats.life@gmail.com">ai.creats.life@gmail.com</a>
+  </div>
+
+  <footer>© 2026 Hiroto08</footer>
+</div>
+</body>
+</html>
