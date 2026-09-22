@@ -23,6 +23,8 @@
          border:1px solid var(--border); border-radius:16px; padding:16px; }
   .mark { flex:none; width:56px; height:56px; border-radius:13px; background:var(--accent); color:#fff;
           display:flex; align-items:center; justify-content:center; font-size:32px; font-weight:600; }
+  img.mark { background:none; }
+  .app + .app { margin-top:12px; }
   .app h3 { margin:0; font-size:17px; }
   .app p { margin:2px 0 8px; color:var(--muted); font-size:14px; }
   .links { display:flex; flex-wrap:wrap; gap:6px 16px; font-size:14px; }
@@ -39,6 +41,18 @@
   </header>
 
   <h2>アプリ</h2>
+  <div class="app">
+    <img class="mark" src="icons/random-name-battle.png" alt="" width="56" height="56">
+    <div>
+      <h3>ランダムなまえバトル</h3>
+      <p>ランダムに出るひらがなを並べて、それっぽい名前を作るパーティーゲーム。AI が名前らしさを採点します。</p>
+      <div class="links">
+        <a href="https://random-name-battle.random-name-battle-score.workers.dev/support/">サポート</a>
+        <a href="https://random-name-battle.random-name-battle-score.workers.dev/privacy/">プライバシーポリシー</a>
+        <a href="https://random-name-battle.random-name-battle-score.workers.dev/terms/">利用規約</a>
+      </div>
+    </div>
+  </div>
   <div class="app">
     <div class="mark" aria-hidden="true">あ</div>
     <div>
